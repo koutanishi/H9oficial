@@ -201,24 +201,22 @@
   .hero-player-img {
     position: absolute;
     right: 0;
+    top: 0;
     bottom: 0;
-    height: 100%;
-    width: 58%;
+    width: 65%;
     z-index: 1;
     pointer-events: none;
-    display: flex;
-    align-items: flex-end;
   }
   .hero-player-img img {
-    height: 100%;
     width: 100%;
+    height: 100%;
     object-fit: cover;
-    object-position: center top;
-    opacity: 0.80;
-    mask-image: linear-gradient(to right, transparent 0%, black 25%, black 100%),
-                linear-gradient(to bottom, black 75%, transparent 100%);
-    -webkit-mask-image: linear-gradient(to right, transparent 0%, black 25%, black 100%),
-                        linear-gradient(to bottom, black 75%, transparent 100%);
+    object-position: center center;
+    opacity: 0.85;
+    mask-image: linear-gradient(to right, transparent 0%, black 20%, black 100%),
+                linear-gradient(to bottom, black 80%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to right, transparent 0%, black 20%, black 100%),
+                        linear-gradient(to bottom, black 80%, transparent 100%);
     mask-composite: intersect;
     -webkit-mask-composite: source-in;
   }
@@ -677,16 +675,16 @@
     #contact-gateway { padding: 80px 24px; }
     .hero-content { padding: 0 24px 80px; }
     .hero-player-img {
-      height: 65%;
-      width: auto;
-      right: auto;
-      left: -15%;
-      top: 8%;
-      bottom: auto;
+      right: 0;
+      left: auto;
+      top: 0;
+      bottom: 0;
+      width: 70%;
+      height: 100%;
       transform: none;
       opacity: 1;
     }
-    .hero-player-img img { height: 100%; width: auto; }
+    .hero-player-img img { width: 100%; height: 100%; object-fit: cover; object-position: center top; }
     .hero-stats { display: none; }
     .hero-number { font-size: 200px; }
     .hero-buttons { flex-direction: column; }
@@ -727,7 +725,7 @@
 
   <!-- ファーストビュー画像 -->
   <div class="hero-player-img">
-    <img src="https://i.postimg.cc/PJG44Vvp/IMG-4007.jpg" alt="平田ネトアントニオマサノリ">
+    <img src="https://i.postimg.cc/JhxVSJcg/IMG-4010.jpg" alt="平田ネトアントニオマサノリ">
   </div>
 
   <div class="hero-content">
@@ -779,7 +777,7 @@
     <!-- 宣材写真 -->
     <div class="message-visual reveal">
       <div class="img-deco"></div>
-      <img src="https://i.postimg.cc/kMkF3H4R/IMG-4009.png" alt="平田ネトアントニオマサノリ">
+      <img src="https://i.postimg.cc/PJG44Vvp/IMG-4007.jpg" alt="平田ネトアントニオマサノリ">
       <div class="img-deco-br"></div>
     </div>
   </div>
@@ -947,8 +945,8 @@
       <a href="https://www.instagram.com/wwa__japan" target="_blank" rel="noopener" class="supporter-card supporter-bg-white reveal" style="transition-delay:0.18s">
         <img src="https://i.postimg.cc/NfYg8zRP/image.png" style="width:100%;height:100%;object-fit:contain;padding:12px;">
       </a>
-      <a href="https://www.instagram.com/footcrown_official" target="_blank" rel="noopener" class="supporter-card supporter-bg-white reveal" style="transition-delay:0.24s">
-        <img src="https://i.postimg.cc/RVrTgcFB/image.png" style="width:100%;height:100%;object-fit:contain;padding:12px;">
+      <a href="https://www.nugu-salon.jp" target="_blank" rel="noopener" class="supporter-card supporter-bg-white reveal" style="transition-delay:0.24s">
+        <img src="https://i.postimg.cc/nVv5WqFd/IMG-4014.jpg" style="width:100%;height:100%;object-fit:contain;padding:12px;">
         <div class="supporter-arrow">↗</div>
       </a>
       <a href="https://www.instagram.com/bar2nd_2021" target="_blank" rel="noopener" class="supporter-card supporter-bg-black reveal" style="transition-delay:0.30s">
