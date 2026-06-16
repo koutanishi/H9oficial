@@ -200,10 +200,10 @@
 
   .hero-player-img {
     position: absolute;
-    left: 50%;
-    transform: translateX(-10%);
+    right: 0;
     bottom: 0;
-    height: 90%;
+    height: 100%;
+    width: 58%;
     z-index: 1;
     pointer-events: none;
     display: flex;
@@ -211,13 +211,14 @@
   }
   .hero-player-img img {
     height: 100%;
-    width: auto;
+    width: 100%;
     object-fit: cover;
-    opacity: 0.55;
-    mask-image: linear-gradient(to right, transparent 0%, black 25%, black 75%, transparent 100%),
-                linear-gradient(to bottom, black 60%, transparent 100%);
-    -webkit-mask-image: linear-gradient(to right, transparent 0%, black 25%, black 75%, transparent 100%),
-                        linear-gradient(to bottom, black 60%, transparent 100%);
+    object-position: center top;
+    opacity: 0.80;
+    mask-image: linear-gradient(to right, transparent 0%, black 25%, black 100%),
+                linear-gradient(to bottom, black 75%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to right, transparent 0%, black 25%, black 100%),
+                        linear-gradient(to bottom, black 75%, transparent 100%);
     mask-composite: intersect;
     -webkit-mask-composite: source-in;
   }
@@ -433,7 +434,7 @@
     gap: 2px;
   }
   .supporter-card {
-    aspect-ratio: 1;
+    aspect-ratio: 16/7;
     background: var(--gray);
     display: flex; align-items: center; justify-content: center;
     position: relative; overflow: hidden;
@@ -726,7 +727,7 @@
 
   <!-- ファーストビュー画像 -->
   <div class="hero-player-img">
-    <img src="https://i.postimg.cc/Qx1gXq9q/IMG-4010.png" alt="平田ネトアントニオマサノリ">
+    <img src="https://i.postimg.cc/PJG44Vvp/IMG-4007.jpg" alt="平田ネトアントニオマサノリ">
   </div>
 
   <div class="hero-content">
